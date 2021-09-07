@@ -46,15 +46,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3% 15% 7%;
 }
 
-/* Title section */
+/* Sections */
 
-#title {
+.coloured-section {
   color: #fff;
   background-color: #ff4c68;
 }
 
-#title.container-fluid {
-  
+.white-section {
+  background-color: white;
+}
+
+/* Title section */
+
+
+#title .container-fluid {
+  padding: 3%
 }
 
 .btn {
@@ -99,7 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Features Section */
 #features {
-  background-color: white;
   position: relative;
   z-index: 1;
 }
@@ -119,9 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text {
@@ -161,7 +165,6 @@ h1, h2, h3, h4, h5, h6 {
 /* cta section */
 #cta {
   background-color: #ef8172;
-  text-align: center;
 }
 
 /* Footer section */
